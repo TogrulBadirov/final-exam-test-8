@@ -1,0 +1,38 @@
+#AddPage {
+    padding-top: 100px;
+    background-color: rgb(26, 118, 255);
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    form {
+        color: #fff;
+        h2{
+            text-align: center;
+        }
+        input {
+            width: 400px;
+        }
+        .btn{
+            border: 1px solid #fff;
+            margin: 20px 0;
+        }
+    }
+
+    .error {
+        color: #ff0000;
+    }
+}
+
+#table{
+    padding: 50px;
+    text-align: center;
+    img{
+        max-width: 100px;
+    }
+    button{
+        margin: 0 10px;
+    }
+}

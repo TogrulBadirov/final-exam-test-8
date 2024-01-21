@@ -1,0 +1,30 @@
+#AboutTasty{
+    width: 100%;
+    .container{
+        width: 100%;
+        justify-content: center;
+        .left-side{
+            img{
+                max-width: 100%;
+            }
+        }
+        .right-side{
+            max-width: 450px;
+            .container{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                span, p{
+                    color: #a4a4a4;
+                    margin-bottom: 40px;
+                }
+                h3{
+                    margin-bottom: 30px;
+                    font-size: 34px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

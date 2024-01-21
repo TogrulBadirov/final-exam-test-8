@@ -1,0 +1,25 @@
+#detail{
+    padding-top: 100px;
+    img{
+        max-width: 600px;
+    }
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        button{
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+            margin-right: 10px;
+            color: #444444;
+            transition: 200ms ease;
+            &:hover{
+                color: #1e1e1e;
+                background-color: #eeeeee;
+                border-radius: 5px;
+            }
+        }
+    }
+}
